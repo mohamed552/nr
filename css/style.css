@@ -34,28 +34,29 @@ li {
   margin-left: 80px;
 }
 
-@media (min-width: 576px) and (max-width: 768px) {
+@media (max-width: 576px) and (max-width: 768px) {
   .navbar {
-    width: 768px;
+    width: 483px;
     height: 70px;
   }
   h3 {
     float: left;
     margin-top: 25px;
     font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 28px;
+    font-size: 18px;
   }
   ul {
     float: right;
     list-style: none;
-    margin-right: 230px;
+    margin-right: 100px;
     margin-top: 30px;
   }
   li {
     font-family: Georgia, "Times New Roman", Times, serif;
     font-weight: 700;
+    font-size: 15px;
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 0px;
     color: red;
   }
 }
